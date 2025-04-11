@@ -12,6 +12,7 @@ export default function Home() {
         <div>yml 코드 변경</div>
         <div>aws-actions/aws-cloudfront-invalidate-cache@v1</div>
         <div>다시 롤백</div>
+        <div>cloudfront yml 설정변경</div>
         </main>
     </div>
   );

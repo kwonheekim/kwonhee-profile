@@ -31,6 +31,10 @@ jobs:
           SOURCE_DIR: out
 
       - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
         uses: chetan/invalidate-cloudfront-action@v2
         with:
           distribution-id: E2UCWBC8IR4W0E
