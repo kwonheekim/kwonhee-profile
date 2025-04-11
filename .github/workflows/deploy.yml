@@ -31,7 +31,7 @@ jobs:
           SOURCE_DIR: out
 
       - name: Invalidate CloudFront cache
-        uses: aws-actions/aws-cloudfront-invalidate-cache@v1
+        uses: chetan/invalidate-cloudfront-action@v2
         with:
           distribution-id: E2UCWBC8IR4W0E
           paths: "/*"
