@@ -13,6 +13,7 @@ export default function Home() {
         <div>aws-actions/aws-cloudfront-invalidate-cache@v1</div>
         <div>다시 롤백</div>
         <div>cloudfront yml 설정변경</div>
+        <div>재설정</div>
         </main>
     </div>
   );
