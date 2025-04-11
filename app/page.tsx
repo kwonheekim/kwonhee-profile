@@ -14,6 +14,7 @@ export default function Home() {
         <div>다시 롤백</div>
         <div>cloudfront yml 설정변경</div>
         <div>재설정</div>
+        <div>클라우드 프론트 원본 도메인 변경</div>
         </main>
     </div>
   );
