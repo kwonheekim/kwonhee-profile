@@ -6,6 +6,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>kimkwonhee</div>
         <div>asdasdad</div>
+        <div>다시 테스트 진행</div>
         </main>
     </div>
   );
