@@ -17,6 +17,7 @@ export default function Home() {
         <div>클라우드 프론트 원본 도메인 변경</div>
         <div>s3 정적 웹호스팅 활성화</div>
         <div>버킷 정책 변경</div>
+        <div>s3 퍼블릭 차단 헤제 및 버킷 설정 변경</div>
         </main>
     </div>
   );
