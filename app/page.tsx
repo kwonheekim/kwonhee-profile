@@ -15,6 +15,7 @@ export default function Home() {
         <div>cloudfront yml 설정변경</div>
         <div>재설정</div>
         <div>클라우드 프론트 원본 도메인 변경</div>
+        <div>s3 정적 웹호스팅 활성화</div>
         </main>
     </div>
   );
