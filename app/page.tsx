@@ -5,6 +5,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div>kimkwonhee</div>
+        <div>asdasdad</div>
         </main>
     </div>
   );
