@@ -8,6 +8,7 @@ export default function Home() {
         <div>asdasdad</div>
         <div>다시 테스트 진행</div>
         <div>다시 테스트</div>
+        <div>yml 변경</div>
         </main>
     </div>
   );
